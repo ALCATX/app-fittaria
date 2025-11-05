@@ -1,0 +1,61 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="256" cy="256" r="256" fill="url(#gradient1)"/>
+  
+  <!-- Main Icon - Modern Dumbbell with AI Elements -->
+  <g transform="translate(128, 128)">
+    <!-- Dumbbell -->
+    <rect x="80" y="120" width="96" height="16" rx="8" fill="white"/>
+    <rect x="64" y="104" width="16" height="48" rx="8" fill="white"/>
+    <rect x="176" y="104" width="16" height="48" rx="8" fill="white"/>
+    <circle cx="72" cy="128" r="20" fill="white"/>
+    <circle cx="184" cy="128" r="20" fill="white"/>
+    
+    <!-- AI Brain/Target -->
+    <circle cx="128" cy="80" r="32" fill="none" stroke="white" stroke-width="6"/>
+    <circle cx="128" cy="80" r="20" fill="none" stroke="white" stroke-width="4"/>
+    <circle cx="128" cy="80" r="8" fill="white"/>
+    
+    <!-- AI Neural Network Lines -->
+    <g stroke="white" stroke-width="2" fill="none" opacity="0.7">
+      <line x1="128" y1="48" x2="128" y2="112"/>
+      <line x1="96" y1="80" x2="160" y2="80"/>
+      <line x1="108" y1="60" x2="148" y2="100"/>
+      <line x1="148" y1="60" x2="108" y2="100"/>
+    </g>
+    
+    <!-- AI Sparkles/Stars -->
+    <g fill="white" opacity="0.9">
+      <!-- Large sparkle -->
+      <path d="M200,50 L204,62 L216,58 L208,70 L220,74 L208,78 L216,90 L204,86 L200,98 L196,86 L184,90 L192,78 L180,74 L192,70 L184,58 L196,62 Z" transform="scale(0.5)"/>
+      
+      <!-- Medium sparkle -->
+      <path d="M50,170 L54,182 L66,178 L58,190 L70,194 L58,198 L66,210 L54,206 L50,218 L46,206 L34,210 L42,198 L30,194 L42,190 L34,178 L46,182 Z" transform="scale(0.4)"/>
+      
+      <!-- Small sparkle -->
+      <path d="M210,170 L214,182 L226,178 L218,190 L230,194 L218,198 L226,210 L214,206 L210,218 L206,206 L194,210 L202,198 L190,194 L202,190 L194,178 L206,182 Z" transform="scale(0.3)"/>
+      
+      <!-- Tiny sparkles -->
+      <circle cx="60" cy="200" r="2"/>
+      <circle cx="220" cy="60" r="2"/>
+      <circle cx="40" cy="120" r="1.5"/>
+      <circle cx="240" cy="140" r="1.5"/>
+    </g>
+    
+    <!-- "F" Letter Integration -->
+    <g fill="white" opacity="0.8">
+      <rect x="45" y="160" width="3" height="20"/>
+      <rect x="45" y="160" width="12" height="3"/>
+      <rect x="45" y="169" width="8" height="3"/>
+    </g>
+  </g>
+  
+  <!-- Gradient Definition -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EC4899;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>
